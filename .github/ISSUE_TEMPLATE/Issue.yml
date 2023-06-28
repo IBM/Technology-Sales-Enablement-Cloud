@@ -10,6 +10,30 @@ body:
     options:
     - label: I have searched the existing issues
       required: true
+- type: dropdown
+  attributes:
+    label: Course
+    description: Which course are you reporting an issue with?
+    multiple: false
+    options:
+      - IBM Public Cloud Fundamentals Level 1
+      - IBM Cloud Satellite Level 2 
+      - IBM Cloud Satellite for Sales Level 3 
+      - IBM Cloud Satellite for Technical Sales Level 3
+      - IBM Cloud for Financial Services Level 2 (V2)
+      - SAP on IBM Cloud Level 2
+      - SAP on IBM Power Virtual Server for Technical Sales Level 3
+      - IBM Cloud for VMware Solutions Level 2 
+      - IBM Cloud for VMware Solutions for Sales Level 3 
+      - IBM Cloud for VMware Solutions for Technical Sales Level 3
+      - IBM Power Systems Virtual Server Level 2 
+      - IBM Power Systems Virtual Server for Sales Level 3 
+      - IBM Power Systems Virtual Server for Technical Sales Level 3
+      - IBM Cloud Object Storage (for Cloud Sellers) Level 2 
+      - IBM Cloud Object Storage for Sales Level 3 
+      - IBM Cloud Object Storage for Technical Sales Level 3
+  validations:
+    required: true 
 - type: textarea
   attributes:
     label: Current Behavior
@@ -52,3 +76,5 @@ body:
       - Chrome
       - Safari
       - Microsoft Edge
+  validations:
+    required: false
