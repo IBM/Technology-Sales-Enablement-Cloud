@@ -2,6 +2,7 @@ name: Issue
 description: File a bug/issue
 title: "[Issue] <title>"
 labels: [Issue, Needs Triage]
+project: "Issue Tracker for IBM Cloud learning plans"
 body:
 - type: checkboxes
   attributes:
