@@ -1,7 +1,7 @@
-name: 🐞 Issue
+name: Issue
 description: File a bug/issue
-title: "[BUG] <title>"
-labels: [Bug, Needs Triage]
+title: "[Issue] <title>"
+labels: [Issue, Needs Triage]
 body:
 - type: checkboxes
   attributes:
@@ -14,15 +14,13 @@ body:
   attributes:
     label: Course
     description: Which course are you reporting an issue with?
-    multiple: false
+    multiple: true
     options:
       - IBM Public Cloud Fundamentals Level 1
       - IBM Cloud Satellite Level 2 
       - IBM Cloud Satellite for Sales Level 3 
       - IBM Cloud Satellite for Technical Sales Level 3
-      - IBM Cloud for Financial Services Level 2 (V2)
-      - SAP on IBM Cloud Level 2
-      - SAP on IBM Power Virtual Server for Technical Sales Level 3
+      - IBM Cloud for Financial Services Level 2
       - IBM Cloud for VMware Solutions Level 2 
       - IBM Cloud for VMware Solutions for Sales Level 3 
       - IBM Cloud for VMware Solutions for Technical Sales Level 3
@@ -32,6 +30,7 @@ body:
       - IBM Cloud Object Storage (for Cloud Sellers) Level 2 
       - IBM Cloud Object Storage for Sales Level 3 
       - IBM Cloud Object Storage for Technical Sales Level 3
+      - SAP on IBM Cloud Level 2
   validations:
     required: true 
 - type: textarea
